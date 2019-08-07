@@ -1,0 +1,2 @@
+# MyProject
+just another repository
