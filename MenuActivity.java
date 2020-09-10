@@ -15,7 +15,7 @@ public class MenuActivity extends AppCompatActivity {
 
     SessionManager sessionManager;
 
-    ImageView mnMeja, mnMenu, mnPesanan, mnKasir, mnLaporan, mnKeluar;
+    ImageView mnnama, mnusername, mnpassword, mnalamat, mnjenkel, mnumur;
 
 
     TextView txtUser;
@@ -28,12 +28,12 @@ public class MenuActivity extends AppCompatActivity {
         sessionManager = new SessionManager(this);
         sessionManager.checkLogin();
 
-        mnMeja = findViewById(R.id.mnMeja);
-        mnMenu = findViewById(R.id.mnMenu);
-        mnPesanan = findViewById(R.id.mnPesanan);
-        mnKasir = findViewById(R.id.mnKasir);
-        mnLaporan = findViewById(R.id.mnLaporan);
-        mnKeluar = findViewById(R.id.mnKeluar);
+        mnnama = findViewById(R.id.mnnama);
+        mnusername = findViewById(R.id.mnusername);
+        mnpassword = findViewById(R.id.mnpassword);
+        mnalamat = findViewById(R.id.mnalamat);
+        mnjenkel = findViewById(R.id.mnjenkel);
+        mnumur = findViewById(R.id.mnumur);
 
         txtUser = findViewById(R.id.txtUser);
 
